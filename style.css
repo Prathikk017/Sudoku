@@ -1,14 +1,23 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background-color: #f7fcf4;
 }
+h1{
+    font-size: 60px;
+  background: -webkit-linear-gradient(#090979, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 
 hr{
     width: 500px;
 }
 
 #errors{
-    color: coral;
+    color: red;
 }
 
 #board{
@@ -65,9 +74,9 @@ hr{
 }
 
 .horizontal-line{
-    border-bottom: 1px solid black;
+    border-bottom: 1.5px solid black;
 }
 
 .vertical-line{
-    border-right: 1px solid black;
+    border-right: 1.5px solid black;
 }
